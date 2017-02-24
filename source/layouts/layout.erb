@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%= partial "shared/meta" %>
+    <%= partial "shared/assets_and_stylesheets" %>
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+    <%= partial "shared/menu" %>
+    <%= yield %>
+    <%= partial "shared/footer" %>
+    <%= partial "shared/js-files" %>
+    <%= partial "shared/analytics" %>
+  </body>
+
+</html>
