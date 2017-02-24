@@ -22,7 +22,7 @@
 body {
 	background: #fff;
 	margin: 0;
-	color: #5a5a5a;
+	color: #5BAF4C;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -276,7 +276,7 @@ tg {
 }
 /*Text Green*/
 tgr {
-	color: #D9AF1B;
+	color: #00A4D8;
 }
 
 hr {
@@ -445,7 +445,7 @@ input {
 }
 
 .section-bg-color {
-	background-color: #D9AF1B;
+	background-color: #00A4D8;
 	height: 100%;
 	padding-top: 40px;
 	padding-bottom: 80px;
@@ -485,7 +485,7 @@ input {
 }
 
 .circle-icon .icon {
-	color: #D9AF1B;
+	color: #00A4D8;
 	line-height: 120px;
 	text-align: center;
 }
@@ -606,7 +606,7 @@ input {
 #f {
 	padding-top: 80px;
 	padding-bottom: 80px;
-	background: #D9AF1B;
+	background: #00A4D8;
 	color: #5a5a5a;
 }
 
@@ -627,7 +627,7 @@ input {
 #copyright {
 	padding-top: 25px;
 	padding-bottom: 25px;
-	background: #D9AF1B;
+	background: #00A4D8;
 	color: #f2f2f2;
 }
 
