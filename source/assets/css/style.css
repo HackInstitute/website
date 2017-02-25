@@ -123,6 +123,11 @@ a:focus {
 	text-align: left;
 }
 
+.menu ul li {
+	list-style: none;
+	padding-left: 30px;
+}
+
 .menu.menu-open {
 	right: 0px;
 }
