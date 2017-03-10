@@ -1,0 +1,16 @@
+!!!
+%html{:lang => "en"}
+  %head
+
+    = partial "shared/meta"
+    = partial "shared/assets_and_stylesheets"
+
+  %body{"data-offset" => "0", "data-spy" => "scroll", "data-target" => "#theMenu"}
+
+    = partial "shared/menu"
+
+    = yield
+    
+    = partial "shared/footer"
+    = partial "shared/js-files"
+    = partial "shared/analytics"
