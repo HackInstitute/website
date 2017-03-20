@@ -644,6 +644,12 @@ ul.white li {
 	color: #f2f2f2;
 }
 
+/* COPYRIGHT */
+#copyright.grey {
+	color: #ffffff;
+	background-color: #c2c2c2;
+}
+
 #copyright h4 {
 	font-weight: 700;
 }
