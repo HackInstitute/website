@@ -14,26 +14,25 @@ title: hack.institute - Contact
     .container
       .row
         .col-md-12
-          %h3.mb Contact
-          %p
-            %ul
-              %li Contact Form
-              %li Why do you want to contact us?
-%section#who-should-come
-  #w
-    .container
-      .row
-        .col-md-12
-          %h3.mb External view
-          %p 
-            %ul 
-              %li Community
-              %li ...
-
-%section#who-should-come
-  #g
-    .container
-      .row
-        .col-md-12
-          %h3.mb For Corporates
-          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fugit quis sed vel, molestias aperiam dolore culpa, molestiae quas dolorum minus voluptatem nesciunt tempora temporibus error, dolor nobis deserunt eum?
+          %h3.mb Contact (Allgemein)
+          %ul
+            %li Contact Form
+            %li Why do you want to contact us?
+            %li Dropdown (maybe)
+          %form#contact_form{:action => "#", :enctype => "multipart/form-data", :method => "POST"}
+            .row
+              %label{:for => "name"} Your name:
+              %br
+              %input#name.input{:name => "name", :size => "30", :type => "text", :value => ""}
+              %br
+            .row
+              %label{:for => "email"} Your email:
+              %br
+              %input#email.input{:name => "email", :size => "30", :type => "text", :value => ""}
+              %br
+            .row
+              %label{:for => "message"} Your message:
+              %br
+              %textarea#message.input{:cols => "30", :name => "message", :rows => "7"}
+              %br
+            %input#submit_button{:type => "submit", :value => "Send email"}
